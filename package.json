@@ -1,0 +1,19 @@
+{
+  "name": "mbe-paying-guest",
+  "version": "1.0.0",
+  "description": "A prototype web app for managing Paying Guest hostels",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": ["paying-guest", "hostel", "booking"],
+  "author": "MBE Team",
+  "license": "MIT"
+}
